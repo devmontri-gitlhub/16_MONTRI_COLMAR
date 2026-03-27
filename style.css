@@ -125,18 +125,16 @@ nav ul li a {
     padding: 0px;
     width: 1025px;
     height: auto;
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: stretch;
     margin-top: 16px;
+    display: grid;
+    grid-template-columns: 60% 40%; 
+    align-items: stretch;
 }
 
 .content_1 .content_1-1 {
     background-color: #dcdcdf;
     border: 1px solid #080808; 
     padding: 32px 24px 32px 24px;
-    width: 60%;
     height: auto;
     display: flex;
     justify-content: flex-start;
@@ -144,10 +142,11 @@ nav ul li a {
 }
 
 .content_1 .content_1-1 img {
-  width: 615px;    
+  width: 100%;    
   height: auto;
   max-width: 100%;
   display: block;
+  object-fit: cover;
 
 }   
 
@@ -155,32 +154,34 @@ nav ul li a {
     background-color: #dcdcdf;
     border: 1px solid #080808; 
     padding: 0px;
-    width: 35%;
-    height: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
+    width: 100%;
+    display: grid;
+    grid-template-rows: 40% 20% 40%;
     align-items: stretch;
     
     
-}.content_1 .content_1-2 .content_1-2-1 {
+}
+.content_1 .content_1-2 .content_1-2-1 {
     background-color: #f7f8fa;
     border: 1px solid #080808; 
     padding: 0px;
     width: auto;
-    display: block;
-    position: relative;
-    order: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
 }
+
 
 .content_1 .content_1-2 .content_1-2-2 {
     background-color: #f7f8fa;
     border: 1px solid #080808; 
     padding: 0px;
     width: auto;
-    display: block;
-    position: relative;
-    order: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
 }
 
 .content_1 .content_1-2 .content_1-2-3 {
@@ -188,10 +189,10 @@ nav ul li a {
     border: 1px solid #080808; 
     padding: 0px;
     width: auto;
-    display: block;
-    position: relative;
-    order: 3;
-    align-self: stretch;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    box-sizing: border-box;
 }
 
 
