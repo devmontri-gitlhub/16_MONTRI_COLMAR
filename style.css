@@ -150,50 +150,87 @@ nav ul li a {
 
 }   
 
-.content_1 .content_1-2 {
+
+    .content_1 .content_1-2 {
+    background-color: #f7f8fa;
+    border: 1px solid #080808; 
+    display: grid;
+    grid-template-rows: 1fr auto auto; 
+    gap: 0;
+    width: 100%;
+    padding: 0;
+    align-items: stretch;
+    }
+
+    .content_1 .content_1-2 > * {
     background-color: #dcdcdf;
     border: 1px solid #080808; 
-    padding: 0px;
-    width: 100%;
-    display: grid;
-    grid-template-rows: 40% 20% 40%;
-    align-items: stretch;
-    
-    
-}
-.content_1 .content_1-2 .content_1-2-1 {
-    background-color: #f7f8fa;
-    border: 1px solid #080808; 
-    padding: 0px;
-    width: auto;
     display: flex;
     flex-direction: column;
+    justify-content: center; 
+    padding: 16px;
+    }
+    .content_1-2-1 { 
+        background-color: #666768;
+        border: 1px solid #080808;
+        justify-content: center; 
+    }
+
+        .content_1 .content_1-2 .content_1-2-1 h1 {
+        font-family: "Poppins", Arial, sans-serif;
+        font-weight: 800;               
+        font-size: clamp(17px, 2.7vw, 37px); 
+        line-height: 1;              
+        margin: 0 0 7px 0;              
+        color: #302f2f;                    
+        letter-spacing: -0.5px;
+        }
+
+    .content_1-2-2 { 
+    background-color: #dcdcdf;
+    border: 1px solid #080808;
     justify-content: flex-start;
-    box-sizing: border-box;
+    margin: 20px 0px 35px 0px; 
+    }
+
+        .content_1 .content_1-2 .content_1-2-2 .lead-text {
+        font-family: "Poppins", Arial, sans-serif;
+        font-weight: 600;           
+        font-size: 18px;           
+        line-height: 1.25;          
+        color: #4a4a4a;             
+        letter-spacing: -0.2px;     
+        margin: 0;                  
+        padding: 0;
+        display: block;
 }
+        
+
+    .content_1-2-3 { 
+        background-color: #dcdcdf;
+        border: 1px solid #080808;
+        justify-content: flex-start; 
+    }
+        .content_1-2-3 .btn-primary {
+        display: block;
+        width: 80%;                 /* ให้เป็นแถบเต็มความกว้างคอลัมน์ */
+        max-width: 100%;
+        height: 40px;                /* สูงของแถบ (ปรับได้) */
+        line-height: 40px;           /* ให้อักษรอยู่กึ่งกลางแนวตั้ง */
+        background: #333333;         /* สีพื้นปุ่ม */
+        color: #ffffff;              /* สีตัวอักษร */
+        text-align: center;
+        border: none;
+        padding: 0;                  /* ใช้ height + line-height ควบคุมแนวตั้ง */
+        font-size: 18px;
+        font-weight: 700;
+        cursor: pointer;
+        box-shadow: none;
+        border-radius: 2px;
+        }
 
 
-.content_1 .content_1-2 .content_1-2-2 {
-    background-color: #f7f8fa;
-    border: 1px solid #080808; 
-    padding: 0px;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    box-sizing: border-box;
-}
 
-.content_1 .content_1-2 .content_1-2-3 {
-    background-color: #f7f8fa;
-    border: 1px solid #080808; 
-    padding: 0px;
-    width: auto;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    box-sizing: border-box;
-}
 
 
 
