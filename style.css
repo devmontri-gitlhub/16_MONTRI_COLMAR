@@ -1,6 +1,5 @@
 
-
-
+/*------------------------------- Start : ตั้งค่าเริ่มต้นสำหรับ Body---------------------------- */
 body {
     font-family: Arial, sans-serif;
     background-color: #fcfafa;
@@ -10,10 +9,14 @@ body {
     margin: auto;
     padding: 0px;
     display: flex;
+    flex-direction: column;   /* <-- ให้เรียงเป็นคอลัมน์ */
+    align-items: center;
     
 }
 
+/*------------------------------- End : ตั้งค่าเริ่มต้นสำหรับ Body----------------------------- */
 
+/*------------------------------- Start : ในส่วน Header --------------------------------- */
 header {
     background-color: #f8f9fa;
     border: 0px solid #080808; 
@@ -112,3 +115,91 @@ nav ul li a {
     font-weight: normal;
     color: #333333;
 }
+ /*------------------------------- End : ในส่วน Header --------------------------------- */
+
+
+ /*------------------------------- Start : ในส่วน Content_1 --------------------------------- */
+.content_1 {
+    background-color: #f7f8fa;
+    border: 1px solid #080808; 
+    padding: 0px;
+    width: 1025px;
+    height: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: stretch;
+    margin-top: 16px;
+}
+
+.content_1 .content_1-1 {
+    background-color: #f7f8fa;
+    border: 1px solid #080808; 
+    padding: 32px 24px 32px 24px;
+    width: 60%;
+    height: auto;
+    display: flex;
+    justify-content: flex-start;
+    align-items: stretch;
+}
+
+.content_1 .content_1-1 img {
+  width: 615px;    
+  height: auto;
+  max-width: 100%;
+  display: block;
+}   
+
+.content_1 .content_1-2 {
+    background-color: #f7f8fa;
+    border: 1px solid #080808; 
+    padding: 0px;
+    width: 35%;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    
+}.content_1 .content_1-2 .content_1-2-1 {
+    background-color: #f7f8fa;
+    border: 1px solid #080808; 
+    padding: 0px;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content_1 .content_1-2 .content_1-2-2 {
+    background-color: #f7f8fa;
+    border: 1px solid #080808; 
+    padding: 0px;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.content_1 .content_1-2 .content_1-2-3 {
+    background-color: #f7f8fa;
+    border: 1px solid #080808; 
+    padding: 0px;
+    width: auto;
+    height: auto;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+
+ /*------------------------------- End : ในส่วน Content_1 ----------------------------------- */
