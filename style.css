@@ -120,7 +120,7 @@ nav ul li a {
 
  /*------------------------------- Start : ในส่วน Content_1 --------------------------------- */
 .content_1 {
-    background-color: #f7f8fa;
+    background-color: #fafbfd;
     border: 1px solid #080808; 
     padding: 0px;
     width: 1025px;
@@ -133,14 +133,14 @@ nav ul li a {
 }
 
 .content_1 .content_1-1 {
-    background-color: #f7f8fa;
+    background-color: #dcdcdf;
     border: 1px solid #080808; 
     padding: 32px 24px 32px 24px;
     width: 60%;
     height: auto;
     display: flex;
     justify-content: flex-start;
-    align-items: stretch;
+    align-items: center;
 }
 
 .content_1 .content_1-1 img {
@@ -148,30 +148,29 @@ nav ul li a {
   height: auto;
   max-width: 100%;
   display: block;
+
 }   
 
 .content_1 .content_1-2 {
-    background-color: #f7f8fa;
+    background-color: #dcdcdf;
     border: 1px solid #080808; 
     padding: 0px;
     width: 35%;
     height: auto;
-    flex-direction: column;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    justify-content: flex-start;
     align-items: stretch;
+    
     
 }.content_1 .content_1-2 .content_1-2-1 {
     background-color: #f7f8fa;
     border: 1px solid #080808; 
     padding: 0px;
     width: auto;
-    height: auto;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    display: block;
+    position: relative;
+    order: 0;
 }
 
 .content_1 .content_1-2 .content_1-2-2 {
@@ -179,12 +178,9 @@ nav ul li a {
     border: 1px solid #080808; 
     padding: 0px;
     width: auto;
-    height: auto;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    display: block;
+    position: relative;
+    order: 1;
 }
 
 .content_1 .content_1-2 .content_1-2-3 {
@@ -192,12 +188,10 @@ nav ul li a {
     border: 1px solid #080808; 
     padding: 0px;
     width: auto;
-    height: auto;
-    flex-direction: column;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    
+    display: block;
+    position: relative;
+    order: 3;
+    align-self: stretch;
 }
 
 
