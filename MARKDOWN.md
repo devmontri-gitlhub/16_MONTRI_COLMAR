@@ -13,3 +13,16 @@ TEST HTML&CSS For JDK12
         • ex_work
         • index.html
         • style.css
+4.ดู ไฟล์งาน แล้วดูโครงว่าต้องส่วนไหนก่อน โดยเริ่มแรกจะสร้างส่วนกล่อง <header></header> ที่ส่วน css :Body และ header {} ที่ไฟล์ style.css
+        • index.htmal สร้าง 
+        <header>
+        สร้างบล็อคใหญ่ ให้รองรับ 2 บล็อค
+        </header>
+        • style.css สร้าง 
+        body {
+            กำหนดค่าความกว้าง ของเว็บ บนหน้าจอ Large Desktop
+        }
+        heder {
+         สร้างบล็อคใหญ่ ให้รองรับ 2 บล็อค  
+        }
+        
